@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    width: 100%;
+    height: 150vh;
+    padding: 20px;
+    background-image: url(../images/Object.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+header a {
+    margin-left: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.banner-section {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.banner {
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+.banner ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+.banner h1 {
+    margin-top: 25px;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+}
+.banner ul li {
+    padding: 5px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+}
+.learners-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.learners-info div {
+  width: 150px;
+  text-align: center;
+}
+
+.learners-info img {
+  width: 100%;
+  border-radius: 50%;
+}
