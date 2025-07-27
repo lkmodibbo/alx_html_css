@@ -303,3 +303,86 @@ footer p {
   font-size: 14px;
   color: #fff;
 } 
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .main-header {
+    height: auto;
+    padding: 10px;
+  }
+
+  .banner h1 {
+    font-size: 48px;
+  }
+
+  .banner ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .learners-info {
+    gap: 20px;
+  }
+
+  .learners-info div {
+    width: 120px;
+  }
+
+  .right-block h2 {
+    font-size: 24px;
+  }
+
+  .quote {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .video-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-container div {
+    width: 90%;
+  }
+
+  .video p {
+    width: 100%;
+  }
+
+  .membership {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .smile-section {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-item {
+    padding: 0.5rem;
+  }
+
+  .footer-container {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .footer-social a {
+    font-size: 18px;
+  }
+}
