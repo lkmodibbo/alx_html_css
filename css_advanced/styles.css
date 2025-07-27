@@ -36,9 +36,12 @@ nav a {
     flex-wrap: wrap;
 }
 .banner {
-    padding: 20px;
+    /* padding: 20px; */
     flex: 1;
     text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+    /* background-color: red; */
 }
 .banner ul {
     display: flex;
@@ -52,17 +55,19 @@ nav a {
     font-size: 100px;
     font-weight: bold;
     color: #fff;
+    /* gap: 0px; */
 }
 .banner ul li {
     padding: 5px 15px;
     color: #fff;
+    /* gap: 20px; */
     text-transform: uppercase;
     font-weight: bold;
 }
 .banner button {
     padding: 10px 15px;
     margin-top: 15px;
-    background-color: blueviolet;
+    background-color: #C271FF;
     color: #fff;
     cursor: pointer;
     border-radius: 15px;
@@ -72,8 +77,8 @@ nav a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 20px;
+  gap: 10%;
+  margin-top: 8%;
 }
 
 .learners-info div {
@@ -84,4 +89,145 @@ nav a {
 .learners-info img {
   width: 100%;
   border-radius: 50%;
+  cursor: pointer;
+}
+.right-block {
+    margin-top: 8%;
+    width: 100%;
+    max-height: 100%;
+}
+.right-block span {
+    color: #C271FF;
+}
+.right-block h2 {
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+    color: rgb(229, 222, 222);
+}
+.learners-info h4 {
+    color: #fff;
+    padding: 5px;
+}
+.learners-info p {
+    color: rgb(171, 171, 171);
+    font-size: 10px;
+    font-style: italic;
+}
+.quote-section {
+    background-color: #C271FF;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.quote {
+    color: #fff;
+    margin: 20px;
+    text-align: justify;
+    padding: 20px;
+    width: 50%;
+    font-size: 18px;
+}
+.quote-section p{
+    margin-top: 20px;
+}
+.video-section {
+    width: 100%;
+}
+.video-section h2{
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+    font-weight: lighter;
+}
+.video-section span {
+    color: #C271FF;
+    font-weight: bold;
+}
+.video-container {
+    width: 85%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;  
+    gap: 30px; 
+    flex-wrap: wrap; 
+    cursor: pointer;
+}
+.video h3{
+    font-size: 14px;
+    padding: 10px;
+}
+.video p {
+    width: 300px;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.video-container div {
+    width: 22%; 
+}
+.image-wrapper {
+    display: inline-block;
+    width: 100%;
+    /* position: absolute; */
+}
+.image-1 {
+    display: block;
+    /* width: 100%; */
+    height: auto;
+}
+.image-2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.membership-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #071629;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.membership-section h2 {
+    color: #fff;
+    font-weight: lighter;
+}
+.membership-section span {
+    color: #C271FF;
+    font-weight: bold;
+}
+.membership {
+    margin: 20px;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:200px;
+}
+.smile-section {
+    width: 50%;
+    padding: 10px;
+}
+.smile-section img {
+    width: 25px;
+    height: 25px;
+}
+.smile-section h3 {
+    font-size: 14px;
+    color: #fff;
+}
+.register {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #C271FF;
+    color: #fff;
+    cursor: pointer;
 }
