@@ -231,3 +231,75 @@ nav a {
     color: #fff;
     cursor: pointer;
 }
+.faq-container {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 2rem;
+}
+.faq-container h1 {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.faq-grid {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.faq-item {
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: lighter;
+}
+.faq-item h4 {
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+.faq-item p {
+    font-size: 14px;
+    color: gray;
+    text-align: justify;
+    line-height: 1.7;
+}
+footer {
+    justify-content: space-between;
+     background-color: #071629;
+}
+footer p {
+    color: #fff;
+    margin: 20px;
+}
+.footer-icon {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+.footer-container {
+    color: #fff;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-logo {
+  height: auto;
+  margin-bottom: 10px;
+}
+.footer-social a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer-copy {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+} 
