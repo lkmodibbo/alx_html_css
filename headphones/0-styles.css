@@ -29,7 +29,7 @@ nav {
     gap: 10px;
 }
 .logo img {
-    width: 40px;
+    width: 100%;
     height: auto;
 }
 .logo h1 {
@@ -113,4 +113,93 @@ section {
     color: #fff;
     margin-top: 40px;
     font-weight: lighter;
+ }
+
+ .what-we-do{
+    width: 100%;
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+ }
+ .what-we-do h1 {
+    margin-top: 8%;
+    font-weight: lighter;
+    padding: 10px;
+ }
+ .what-we-do p {
+    margin-top: 5%;
+    width: 60%;
+    text-align:justify ;
+ }
+ .what-we-do-icon {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 5%;
+ }
+ .holberton_school-icon-ic_sound{
+    background-color: red;
+ }
+
+ .main-section{
+    background-image: url(./d1597894d79386c83b9b/images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ }
+ .result-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10%;
+ }
+ .result-container h1 {
+    color: #fff;
+    margin-top: 20%;
+    font-weight: lighter;
+    margin-bottom: 10%;
+ }
+ .result-container p {
+    color: #fff;
+    font-weight: lighter;
+ }
+ .icons-container {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    justify-content: space-between;
+    margin: 60px;
+    cursor: pointer;
+ }
+ .icons-container img {
+    display: block;
+    width: 170px;
+    margin: 20px;
+    height: 160px;
+ }
+ .icons-container .percent {
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 38px;
+    font-weight: bold;
+ }
+ .icons-container .desc {
+    position: absolute;
+    bottom: 10px;
+    left: 90%;
+    top: 75%;
+    right: 0%;
+    transform: translate(-50%);
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
  }
