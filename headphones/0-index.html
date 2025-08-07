@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphones</title>
     <link rel="stylesheet" href="0-styles.css">
-     <link rel="stylesheet" href="demo-files/demo.css">
-    <link rel="stylesheet" href="style.css">
+     <!-- <link rel="stylesheet" href="demo-files/demo.css">
+    <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/531e861363.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,10 +15,13 @@
 <body>
     <header class="hero">
         <nav>
+             <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
             <div class="logo">
                 <img src="./d1597894d79386c83b9b/images/logo_headphones.png" alt="">
             </div>
-            <ul>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#what-we-do">What we do</a></li>
                 <li><a href="#our-result">Our result</a></li>
                 <li><a href="#contact-us">Contact us</a></li>
@@ -135,5 +138,19 @@
   </div>
 </footer>
 
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    }
+});
+
+
+    </script>
 </body>
 </html>
