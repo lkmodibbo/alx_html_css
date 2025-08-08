@@ -1,9 +1,10 @@
  * {
     padding: 0;
     margin: 0;
-    
+   box-sizing: border-box; 
 }
 body {
+  width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     overflow-x: hidden;
 }
@@ -24,9 +25,6 @@ nav {
     align-items: center;
     padding: 30px 70px;
 }
-/* .nav-links {
-   display: flex;
-   gap: 2rem; */
 
 .hamburger {
    display: none;
@@ -269,7 +267,6 @@ section {
    background-color: #031018;
 }
 .footer{
-  /* background-color: red; */
   width: 80%;
   margin: auto;
   display: flex;
@@ -302,199 +299,3 @@ section {
    text-align: center;
 }
 
-
-
-
-
-
-
-
-/* --------------------------------
-   TABLET (max-width: 1024px)
--------------------------------- */
-@media (max-width: 1024px) {
-  nav {
-    padding: 20px 40px;
-  }
-
-  .what-we-do p {
-    width: 80%;
-  }
-
-  .lorem-2 {
-    width: 90%;
-  }
-
-  .result-container {
-    width: 100%;
-  }
-
-  .icons-container {
-    margin: 40px;
-  }
-
-  .footer {
-    flex-direction: column;
-    height: auto;
-    gap: 20px;
-  }
-
-  .footer img {
-    margin: 0;
-  }
-
-  .social-icons {
-    margin: 0 auto;
-  }
-}
-
-
-/* --------------------------------
-   SMALL TABLET & LARGE PHONES (max-width: 768px)
--------------------------------- */
-@media (max-width: 768px) {
-  nav {
-    padding: 20px;
-    flex-direction: row;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    color: #fff;
-    position: absolute;
-    margin-bottom: 24px;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-    z-index: 1;
-  }
-  .nav-links.active {
-    display: flex;
-  }
-
-  .hamburger {
-    display: block;
-    color: #fff;
-  }
-
-  .logo img {
-    width: 60%;
-    margin-left: 25%;
-  }
-
-  .lorem-1 {
-    margin-top: 25%;
-    padding: 10px 20px;
-  }
-
-  .lorem-1 h1 {
-    font-size: 18px;
-  }
-
-  .lorem-2 {
-    width: 90%;
-    font-size: 14px;
-  }
-
-  .what-we-do-icon {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .result-container h1 {
-    font-size: 20px;
-  }
-
-  .icons-container {
-    display: grid;
-    grid-template-rows: repeat(1fr, 2);
-    margin: 30px auto;
-  }
-
-  .contact form {
-    width: 90%;
-  }
-}
-
-
-/* --------------------------------
-   MOBILE PHONES (max-width: 480px)
--------------------------------- */
-@media (max-width: 480px) {
-  nav {
-    flex-direction: row;
-    padding: 15px;
-  }
-
-  .lorem-1 h1 {
-    font-size: 16px;
-  }
-
-  .lorem-1 p {
-    font-size: 14px;
-  }
-
-  .lorem-1 button {
-    padding: 10px 15px;
-    font-size: 10px;
-  }
-
-  .lorem-2 {
-    padding: 10px;
-    font-size: 12px;
-  }
-
-  .what-we-do h1 {
-    font-size: 18px;
-  }
-
-  .what-we-do p {
-    font-size: 14px;
-    width: 90%;
-  }
-
-  .result-container h1 {
-    font-size: 18px;
-  }
-
-  .icons-container img {
-    width: 130px;
-    height: 120px;
-  }
-
-  .icons-container .percent {
-    font-size: 28px;
-  }
-
-  .icons-container .desc {
-    font-size: 10px;
-  }
-
-  .contact h1 {
-    font-size: 20px;
-  }
-
-  .action-button {
-    width: 100%;
-    padding: 10px;
-    font-size: 12px;
-  }
-
-  .footer {
-    padding: 15px;
-  }
-
-  .footer img {
-    width: 120px;
-  }
-
-  .social-icons a {
-    font-size: 16px;
-    margin: 5px;
-  }
-}

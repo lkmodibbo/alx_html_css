@@ -1,0 +1,83 @@
+
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 20px 30px;
+    }
+    .hamburger{
+        display: block;
+        color: #fff;
+        z-index: 1;
+    }
+    .logo img {
+      width: 75%;
+      margin-left: 45%;
+    }
+    .nav-links {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        text-align: center;
+        padding: 2rem 0;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    .lorem-1{
+      width: 80%;
+      margin: auto;
+      margin-top: 20%;
+    
+
+    }
+    .lorem-2{
+      width: 90%;
+      text-align: justify;
+    }
+    .lorem-1 h1 {
+    font-size: 18px;
+    padding: 5px;
+  }
+    .lorem-1 p {
+    font-size: 14px;
+  }
+  .what-we-do{
+    width: 100%;
+    margin: auto;
+  }
+  .what-we-do-icon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .result-container{
+    width: 90%;
+    margin: auto;
+  }
+  .main-icons-container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+/* 
+@media (max-width: 768px)
+
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+} */
